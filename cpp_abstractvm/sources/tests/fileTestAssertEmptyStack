@@ -1,0 +1,8 @@
+; -------------------
+; OverflowFloat.avm -
+; -------------------
+
+push float(55.5)
+pop
+assert float(55.5)
+exit

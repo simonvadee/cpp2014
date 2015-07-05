@@ -1,0 +1,6 @@
+; ------------------------
+;    fileTestWrongArgument.avm     -
+; ------------------------
+
+push double(tata)
+exit

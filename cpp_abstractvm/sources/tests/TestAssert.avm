@@ -1,0 +1,12 @@
+; ------------------------
+;     TestAssert.avm     -
+; ------------------------
+
+push double(84.42)
+push int16(42)
+sub
+assert double(42.42)
+push float(1.8)
+div
+assert int32(200)
+exit

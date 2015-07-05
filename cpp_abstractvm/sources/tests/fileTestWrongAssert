@@ -1,0 +1,7 @@
+; -------------------------
+; fileTestWrongAssert.avm -
+; -------------------------
+
+push float(55.5)
+assert float(1)
+exit

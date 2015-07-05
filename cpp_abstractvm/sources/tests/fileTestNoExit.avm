@@ -1,0 +1,7 @@
+; ------------------------
+;    fileTestDivisionPerZero.avm     -
+; ------------------------
+
+push double(24.5)
+push int32(27)
+add

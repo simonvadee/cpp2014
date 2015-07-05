@@ -1,0 +1,8 @@
+; ----------------------------------
+;    fileTestPopEmptyStack.avm     -
+; ----------------------------------
+
+push int8(5)
+pop
+pop ;commentaire test
+exit

@@ -1,0 +1,47 @@
+; ------------------------
+;     TestReal.avm       -
+; ------------------------
+
+push int8(95)
+push int8(2)
+dump
+add
+dump
+print
+
+push int16(128)
+push double(28.001)
+dump
+sub
+dump
+assert double(99.999)
+
+div
+push float(103.091720704)
+mul
+assert double(100)
+dump
+
+pop
+
+push int32(999999999)
+push double(999999.99)
+div
+dump
+
+push double(500.1)
+push int8(0)
+sub
+mod
+dump
+
+push int32(400)
+sub
+push float(99.4)
+sub
+push double(-0.01)
+push double(1000.5)
+dump
+mul
+dump
+exit
